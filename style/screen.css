@@ -2,7 +2,7 @@
 body{
 
   margin: 0 auto;
-
+  background-color: black;
   padding: 0 70px;
 
 }
@@ -11,29 +11,33 @@ main{
 
 }
 h2{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 1.5em;
+}
+h3{
+  color:white;
 }
 p{
   font-size: 1.32em;
-  
+  color: white;
+
 }
 #name{
   padding-left: 3em;
 }
 #work{
   display: grid;
-  grid-gap: 1px;
+  /* grid-gap: 1px; */
   	grid-template-columns: repeat(2, 1fr);
 }
 nav {
-  position: fixed;
+  position: relative;
   float: left;
   width: 15%;
   height: 545px;
   background: #ccc;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
 }
 #contact{
   padding-top: 9.8em;
