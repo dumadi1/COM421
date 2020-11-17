@@ -1,78 +1,148 @@
-
-body{
-
+body {
   margin: 0 auto;
-  background-color: black;
+  background-color: #ccc;
   padding: 0 70px;
-
 }
-main{
+
+#content {
   padding-left: 18em;
-
 }
-h2{
+
+#download {
+  width: 2%;
+  float: right;
+  padding-bottom: 3em;
+}
+
+#homebutton {
+  background-color: black;
+  padding: 0.5em;
+  color: white;
+  border-radius: 2em;
+  font-size: 1.5em;
+}
+
+#down {
+  padding-left: 62.2em;
+}
+
+#resumecontent {
+  margin-left: 9em;
+  margin-right: 9em;
+  border-style: groove;
+  border-radius: 3em;
+  background-color: white;
+  box-shadow: 8px 10px #888888;
+  margin-top: 2em;
+}
+
+#resumecontent h2 {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+}
+
+#resumecontent p {
+  padding-left: 1em;
+  font-size: 20px;
+}
+
+#resumecontent h3 {
+  padding-left: 1em;
+  font-size: 20px;
+}
+
+#resumecontent li {
+  font-size: 20px;
+}
+
+h2 {
   background-color: white;
   color: black;
   font-size: 1.5em;
+  padding-left: 0.5em;
 }
-h3{
-  color:white;
-}
-p{
-  font-size: 1.32em;
-  color: white;
 
+h3 {
+  color: black;
 }
-#name{
+
+#add {
+  text-align: center;
+}
+
+#link {
+  color: white;
+}
+
+p {
+  font-size: 1.32em;
+  color: black;
+}
+
+#newname {
+  text-align: center;
+  font-size: 3em;
+}
+
+#name {
   padding-left: 3em;
-  color:black;
+  color: black;
 }
-#work{
+
+#work {
   display: grid;
   /* grid-gap: 1px; */
-  	grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
+
 nav {
   position: relative;
   float: left;
   width: 15%;
   height: 545px;
-  background: #ccc;
+  background: white;
   padding: 20px 20px 0 20px;
 }
-#contact{
-  padding-top: 9.8em;
+
+#contact {
+  padding-top: 4em;
 }
-#try{
+
+#try {
   padding-left: 1em;
-  width: 70%;
+  width: 90%;
   border-radius: 50%;
 }
-img{
+
+img {
   width: 15%;
 }
+
 nav ul {
   list-style-type: none;
-
   padding-left: 3.5em;
-
-
 }
-nav ul li{
-font-size: 1.1em;
-padding: 1em;
 
-
+nav ul li {
+  font-size: 1.1em;
+  padding: 1em;
 }
-a:link,a:visited {
+
+nav ul li a:hover {
+  background-color: black;
+  padding: 0.5em;
+  color: white;
+  border-radius: 2em;
+}
+
+a:link, a:visited {
   color: black;
   text-decoration: none;
-
-
 }
 
-a:hover{
+a:hover {
   color: white;
-  text-decoration:underline;
-  text-decoration-color:blue;
+  text-decoration: underline;
+  text-decoration-color: blue;
 }
