@@ -2,29 +2,34 @@ body {
   margin: 0 auto;
   background-color: #ccc;
   padding: 0 70px;
+  font-family: 'Abel', sans-serif;
 }
 
 #content {
   padding-left: 18em;
 }
 
-#download {
-  width: 2%;
+#download{
   float: right;
-  padding-bottom: 3em;
+  background-color: black;
+  padding: 0.5em;
+  margin-top: 2em;
+  color: white;
+  border-radius: 2em;
+  font-size: 1em;
 }
 
 #homebutton {
+  float: left;
+  margin-top: 2em;
   background-color: black;
   padding: 0.5em;
   color: white;
   border-radius: 2em;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
-#down {
-  padding-left: 62.2em;
-}
+
 
 #resumecontent {
   margin-left: 9em;
@@ -34,26 +39,32 @@ body {
   background-color: white;
   box-shadow: 8px 10px #888888;
   margin-top: 2em;
+  font-family: 'Abel', sans-serif;
 }
 
 #resumecontent h2 {
   background-color: black;
   color: white;
   font-size: 22px;
+  font-family: 'Abel', sans-serif;
 }
 
 #resumecontent p {
   padding-left: 1em;
   font-size: 20px;
+    font-family: 'Abel', sans-serif;
 }
 
 #resumecontent h3 {
   padding-left: 1em;
   font-size: 20px;
+    font-family: 'Abel', sans-serif;
 }
 
 #resumecontent li {
   font-size: 20px;
+
+    font-family: 'Abel', sans-serif;
 }
 
 h2 {
@@ -61,10 +72,12 @@ h2 {
   color: black;
   font-size: 1.5em;
   padding-left: 0.5em;
+  font-family: 'Abel', sans-serif;
 }
 
 h3 {
   color: black;
+  font-family: 'Abel', sans-serif;
 }
 
 #add {
@@ -78,6 +91,7 @@ h3 {
 p {
   font-size: 1.32em;
   color: black;
+  font-family: 'Abel', sans-serif;
 }
 
 #newname {
@@ -102,11 +116,12 @@ nav {
   width: 15%;
   height: 545px;
   background: white;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 90px 20px;
 }
 
 #contact {
-  padding-top: 4em;
+  padding-top: 9em;
+  padding-left: 4em;
 }
 
 #try {
@@ -127,6 +142,7 @@ nav ul {
 nav ul li {
   font-size: 1.1em;
   padding: 1em;
+  font-family: 'Abel', sans-serif;
 }
 
 nav ul li a:hover {
